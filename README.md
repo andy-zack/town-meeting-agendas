@@ -6,10 +6,11 @@ This repository contains a collection of scripts and tools for downloading, extr
 
 ## Project Structure
 
-- `download_agendas.R`: An R script for downloading the most recent agenda from the Carbondale town government website.
-- `extract_text_from_pdf.R`: An R script for extracting text from a downloaded PDF agenda.
-- `extract_agenda_items.R`: An R script for extracting individual agenda items from the extracted text (coming soon).
-- `analyze_agenda_items.R`: An R script for analyzing and visualizing the extracted agenda items (coming soon).
+- `get_meeting_packet.R`: An R script for downloading the most recent agenda from the Carbondale town government website.
+- `parse_packet_pdf.R`: An R script for extracting text from a downloaded PDF agenda.
+- `post_to_instagram.R`: An R script for posting to instagram.
+- (more coming soon!)
+
 
 ## Setup
 
