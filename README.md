@@ -9,6 +9,7 @@ This repository contains a collection of scripts and tools for downloading, extr
 - `get_meeting_packet.R`: An R script for downloading the most recent agenda from the Carbondale town government website.
 - `parse_packet_pdf.R`: An R script for extracting text from a downloaded PDF agenda.
 - `post_to_instagram.R`: An R script for posting to instagram.
+- `create_image.R`: An R script that takes an image, formats it for Instagram, and overlays text on top of it.
 - (more coming soon!)
 
 
@@ -32,9 +33,6 @@ Open R and install the required packages using the following commands:
 install.packages("rvest")
 install.packages("pdftools")
 install.packages("stringr")
+install.packages("here")
+install.packages("magick")
 ```
-
-### 4. Run the Scripts
- - Run download_agendas.R to download the most recent agenda.
- - Run extract_text_from_pdf.R to extract text from the downloaded PDF.
- - (Additional scripts and instructions will be added as the project progresses.)
