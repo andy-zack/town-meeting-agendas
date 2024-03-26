@@ -13,21 +13,7 @@ This repository contains a collection of scripts and tools for downloading, extr
 - (more coming soon!)
 
 
-## Setup
-
-### 1. Clone the Repository
-
-Clone this repository to your local machine using:
-
-```sh
-git clone https://github.com/andy-zack/town-meeting-agendas.git
-```
-
-### 2. Install R
-If you haven't already, install R from [CRAN](https://cran.r-project.org/).
-
-### 3. Install Required R Packages
-Open R and install the required packages using the following commands:
+##  Required R Packages
 
 ```r
 install.packages("rvest")
